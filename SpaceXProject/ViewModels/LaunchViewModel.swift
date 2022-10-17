@@ -19,7 +19,7 @@ class LaunchViewModel: ObservableObject {
   }
     
   private func loadLaunchList() {
-
+    
     apolloClient.fetch(query: GQL.GetLaunchesQuery(limit: 100, offset: 0)) { [weak self] (result) in
       guard let self = self else { return }
 
@@ -29,8 +29,7 @@ class LaunchViewModel: ObservableObject {
         // -> queryResult.data?.launches get array of json
         self.launches = launches.compactMap { $0 }
         // compactMap - > Returns an array containing the non-nil results of calling the given transformation with each element of this sequence.
-        print(launches[0]?.ships)
-//        print("Sucess! Result: \(queryResult)")
+        print("Sucess!")
       case .failure(let error):
         print("error: \(error.localizedDescription)")
       }

@@ -16,6 +16,6 @@ class NetworkService {
   private(set) var apolloClient: ApolloClient
 
   init() {
-      apolloClient = ApolloClient(url: URL(string: "https://api.spacex.land/graphql")!)
+    apolloClient = ApolloClient(url: URL(string: "https://api.spacex.land/graphql")!)
   }
 }
