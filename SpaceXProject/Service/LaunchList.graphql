@@ -1,0 +1,18 @@
+query GetLaunches($limit: Int!, $offset: Int!) {
+  launches(limit: $limit, offset: $offset) {
+    id
+    details
+    mission_name
+    rocket {
+      rocket_name
+    }
+    ships {
+      home_port
+      id
+      image
+      name
+    }
+  }
+}
+
+
