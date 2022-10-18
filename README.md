@@ -1,7 +1,6 @@
 # SpaceX Project 
 
-
-####(iOS 15.0 / With Apollo package 0.53.0 version/ Use MVVM design pattern/ SwiftUI framework)
+#### (iOS 15.0 / With Apollo package 0.53.0 version/ Use MVVM design pattern/ SwiftUI framework)
 
 ## Project preview:
 
@@ -13,7 +12,7 @@ Use Apollo package which is a platform you can do API calls using GraphQL (async
 
 GraphQL: https://api.spacex.land/graphql/
 
-### Work Flow: Install -> Generate the data -> Display
+### Work Flow: Install Apollo  -> Fetch the data and Process -> Display
 
 #### First Part: Install Apollo 
 
