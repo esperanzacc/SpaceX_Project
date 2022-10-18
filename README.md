@@ -1,6 +1,11 @@
-# SpaceX Project ( iOS 15.0 / With Apollo package 0.53.0 version/ Use MVVM design pattern/ SwiftUI framework)
+# SpaceX Project 
+
+
+####(iOS 15.0 / With Apollo package 0.53.0 version/ Use MVVM design pattern/ SwiftUI framework)
 
 ## Project preview:
+
+![image](https://github.com/esperanzacc/SpaceX_Project/blob/main/spaceX.gif)
 
 ## Description:
 
