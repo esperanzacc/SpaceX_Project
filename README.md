@@ -68,7 +68,9 @@ query xxxx {
 
 In the middle of GraphQL, you can find the query depend on which data you want to fetch from the left hand side.
 
-In my project, here is my query file. (Create a blank file and save it as .graphql file.
+In my project, here is my query file. (Create a blank file and save it as .graphql file
+
+```
 
 query GetLaunches($limit: Int!, $offset: Int!) {
   launches(limit: $limit, offset: $offset) {
@@ -87,6 +89,7 @@ query GetLaunches($limit: Int!, $offset: Int!) {
   }
 }
 
+```
 ---------------------------------
 
 ♢ Add run script on build phase
@@ -129,13 +132,16 @@ fi
 
 ````
 
-Try to build your project ( commant+B ) If succeed, congragulations!! It will also generate the API file for you. Drad the file below APIs folder to your project.
+Try to build your project ( commant+B ) If succeed, congragulations!! 
 
-<img width="460" alt="Screen Shot 2022-10-17 at 10 10 46 PM" src="https://user-images.githubusercontent.com/90818221/196341079-8b8d4ccb-47ec-482b-9223-549fd8c1c3cc.png">
+It will also generate the API file for you. Drag the files below APIs folder to your project.
+
+<img width="640" alt="Screen Shot 2022-10-17 at 10 10 46 PM" src="https://user-images.githubusercontent.com/90818221/196341079-8b8d4ccb-47ec-482b-9223-549fd8c1c3cc.png">
 
 <img width="640" alt="Screen Shot 2022-10-17 at 10 17 42 PM" src="https://user-images.githubusercontent.com/90818221/196341687-471b4f82-0ebd-4c4c-aee1-e304737b7b23.png">
 
-<img width="640" alt="Screen Shot 2022-10-17 at 10 17 42 PM" src="https://user-images.githubusercontent.com/90818221/196341703-51ec3eff-1975-4b1b-8c9f-d8f1edc640dd.png">
+<img width="640" alt="Screen Shot 2022-10-17 at 10 17 31 PM" src="https://user-images.githubusercontent.com/90818221/196355719-80f96cfd-cc7b-42dd-a59a-96c22f2fbd17.png">
+
 
 Note: Do not edited anything in the file cuz it is automatically created.
 
@@ -234,7 +240,7 @@ Before starting to type in the contentView file, you have to think about what do
 
 For example, in my project, I want to make a launches list and then user can navigate to the second view to see the details.
 
-![IMG_7277](https://user-images.githubusercontent.com/90818221/196349063-8acf728a-c429-4e21-99f7-c321c82b3bf5.jpg)
+<img src="https://user-images.githubusercontent.com/90818221/196349063-8acf728a-c429-4e21-99f7-c321c82b3bf5.jpg" width="300"/>
 
 When you are done with the draft, you can think about which view you will use 
 
@@ -382,6 +388,7 @@ struct LaunchDetailView: View {
 ```
 
 Note: To make my code more readable, if you want to display lots of data on your view, it is better to use @viewBuilder to split into different views.
+
 Note: AsyncImage function is only allowed in iOS 15.0
 
 ```
