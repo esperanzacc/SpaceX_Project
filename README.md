@@ -64,7 +64,7 @@ query xxxx {
 
 }
 
-<img width="640" alt="Screen Shot 2022-10-17 at 9 46 39 PM" src="https://user-images.githubusercontent.com/90818221/196338765-53e745ba-0922-47cf-aaa2-a7388629d844.png">
+<img width="640" alt="Screen Shot 2022-10-17 at 9 54 44 PM" src="https://user-images.githubusercontent.com/90818221/196355355-32f300ce-c898-4508-b796-8a766a7465ed.png">
 
 In the middle of GraphQL, you can find the query depend on which data you want to fetch from the left hand side.
 
